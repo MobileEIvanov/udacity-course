@@ -25,14 +25,14 @@ void main() {
 class UnitConverterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return new MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Unit Converter',
-      home: Scaffold(
+      home: new Scaffold(
         backgroundColor: Colors.green[100],
-        body: Center(
+        body: new Center(
           // TODO: Determine what properties you'll need to pass into the widget
-          child: Category(),
+          child: new Category(),
         ),
       ),
     );
